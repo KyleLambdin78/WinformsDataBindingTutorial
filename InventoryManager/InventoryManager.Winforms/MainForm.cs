@@ -18,17 +18,9 @@ namespace InventoryManager.Winforms
     {
         private WorldViewModel mViewModel;
 
-        private WorldViewModel ViewModel
-        {
+        private WorldViewModel ViewModel {
             get => mViewModel;
-            set
-            {
-                if (mViewModel != value)
-                {
-                    mViewModel = value;
-                    worldViewModelBindingSource.DataSource = mViewModel;
-                }
-            }   
+            set => mViewModel = value;
         }
     
         public MainForm()
