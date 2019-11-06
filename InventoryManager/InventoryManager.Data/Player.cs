@@ -16,5 +16,9 @@ namespace InventoryManager.Data
 
         public override string ToString() => Name;
         
+        public Player()
+        {
+            Inventory = new List<Item>();
+        }
     }
 }

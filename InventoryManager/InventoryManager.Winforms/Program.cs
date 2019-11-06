@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using InventoryManager.Winforms.Forms;
 
-namespace InventoryManager.Winforms
+namespace InventoryManager.Winforms.Forms
 {
     static class Program
     {
